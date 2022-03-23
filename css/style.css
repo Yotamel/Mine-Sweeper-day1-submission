@@ -1,0 +1,51 @@
+body {background-color: rgb(66, 69, 71);}
+
+.game-window{
+    display: block;
+    height: 600px;
+    width: 700px;
+    background-color: rgb(255, 215, 130);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button{
+  background-color: #c7c7c7;
+  border: 6px outset;
+  color: white;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:active{
+    border-style: inset;
+}
+
+.smiley{
+  background: url(/img/Smiley-none-transparent.png);
+  background-size: 65px 65px;
+}
+
+.game-table{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cell{
+    background-color: #c7c7c7;
+    border: 4px outset;
+}
+
+.shown{
+    border-style: inset;
+    background-color: #696969; /*nice*/
+}
